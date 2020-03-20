@@ -34,4 +34,4 @@ ADD entrypoint /
 EXPOSE 80
 EXPOSE 443
 EXPOSE 1194
-ENTRYPOINT ["/init"]
+ENTRYPOINT ["/init.sh"]
